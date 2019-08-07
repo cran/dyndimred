@@ -1,7 +1,7 @@
 Package: dyndimred
 Type: Package
 Title: Dimensionality Reduction Methods in a Common Format
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: c(
     person(
       "Robrecht", "Cannoodt", 
@@ -25,16 +25,18 @@ Description:
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports: dynutils (>= 1.0.3), Matrix, irlba
-Suggests: testthat, destiny, diffusionMap, fastICA, lle, MASS, Rtsne,
-        smacof, uwot
+Imports: dynutils (>= 1.0.3), irlba
+Suggests: testthat, destiny, diffusionMap, fastICA, lle, MASS, Matrix,
+        Rtsne, smacof, uwot
 RoxygenNote: 6.1.1
+URL: http://github.com/dynverse/dyndimred
+BugReports: https://github.com/dynverse/dyndimred/issues
 NeedsCompilation: no
-Packaged: 2019-05-20 08:24:25 UTC; rcannood
+Packaged: 2019-08-07 09:15:44 UTC; rcannood
 Author: Robrecht Cannoodt [aut] (<https://orcid.org/0000-0003-3641-729X>,
     rcannood),
   Wouter Saelens [aut, cre] (<https://orcid.org/0000-0002-7114-6248>,
     zouter)
 Maintainer: Wouter Saelens <wouter.saelens@gmail.com>
 Repository: CRAN
-Date/Publication: 2019-05-24 09:10:02 UTC
+Date/Publication: 2019-08-07 09:40:02 UTC
